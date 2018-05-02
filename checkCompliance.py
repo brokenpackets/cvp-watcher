@@ -7,7 +7,8 @@ import socket
 import csv
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning) #ignores ssl-cert validation.
 
-### Requires development branch of CVPRAC, assuming they merge in my pull requests.
+##### Requires special fork of CVPRAC currently - waiting on PR to be merged in main repo.
+### https://github.com/brokenpackets/cvprac
 ####User Data
 cvp_url = '1.2.3.4'
 cvp_user = 'cvpadmin'
